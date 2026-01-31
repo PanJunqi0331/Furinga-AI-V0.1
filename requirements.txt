@@ -1,0 +1,18 @@
+# 基础核心依赖
+openai>=1.3.0
+websockets>=12.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+pygame>=2.5.0
+aioconsole>=0.6.0
+
+# 语义分析与向量检索 (RAG 核心)
+sentence-transformers>=2.2.2
+torch>=2.0.0  # sentence-transformers 的底层依赖
+
+# 辅助工具
+numpy
+tqdm
+
+# 推荐使用国内镜像源安装 (速度更快)
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
