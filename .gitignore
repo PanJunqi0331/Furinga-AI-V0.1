@@ -1,0 +1,42 @@
+# === 隐私数据 (绝对不传) ===
+Saves/
+*.json
+memory/
+logs/
+__pycache__/
+
+# === Python 环境与缓存 ===
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv
+build/
+dist/
+.idea/
+.vscode/
+
+# === 大文件 (模型等) ===
+*.pth
+*.ckpt
+*.wav
+*.mp3
+SoVITS_weights/
+GPT_weights/
+
+# === GPT-SoVITS 环境与大文件 ===
+GPT-SoVITS/runtime/
+GPT-SoVITS/pretrained_models/
+GPT-SoVITS/output/
+GPT-SoVITS/logs/
+GPT-SoVITS/TEMP/
+GPT-SoVITS/tools/uvr5/uvr5_weights/
+GPT-SoVITS/tools/asr/models/
+
+# 通用环境忽略
+runtime/
+venv/
+.venv/
+__pycache__/
+*.pyc
