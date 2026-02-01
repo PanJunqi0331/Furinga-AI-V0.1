@@ -48,7 +48,7 @@
 
 ### 2. 获取代码
 ```bash
-git clone [https://github.com/PanJunqi0331/Furinga-AI-V0.1.git](https://github.com/PanJunqi0331/Furinga-AI-V0.1.git)
+git clone [https://github.com/BaiZhu0528/Furinga-AI-V0.1.git](https://github.com/BaiZhu0528/Furinga-AI-V0.1.git)
 cd Furinga-AI-V0.1
 pip install -r requirements.txt
 ```
